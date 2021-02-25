@@ -1,0 +1,13 @@
+*{
+	margin: 0; 
+	padding: 0; 
+}
+.content{
+
+}
+.bannerTop{
+	background-image:url('../img/bannerMain.jpg');
+	background-repeat:no-repeat;
+	background-position: 0 0;
+	height: 700px;
+}
