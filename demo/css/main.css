@@ -8,10 +8,9 @@ font-family: 'Roboto', sans-serif;
 	padding: 0; 
 }
 body{
-	font-family: 'Roboto', sans-serif;
+	/*font-family: 'Roboto', sans-serif;*/
 }
 .content{
-	max-width: 1500px;
 	margin: auto;
 	box-shadow: #110F0F 5px 5px 20px;
 }
@@ -85,4 +84,8 @@ aside{
 }
 .menuSocial > a:hover{
 	color: #FA6206;
+}
+.ubication{
+	color: #FFFFFF;
+	text-align: center;
 }
