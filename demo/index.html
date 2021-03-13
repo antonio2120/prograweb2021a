@@ -3,26 +3,147 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
-	<link rel="stylesheet" href="css/main.css">
+	<title>INOX</title>	
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Anton&family=Orbitron:wght@400;900&family=Roboto:ital,wght@0,100;0,500;1,100&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/c0f300f893.js" crossorigin="anonymous"></script>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous"> 
+	<link rel="stylesheet" href="css/main.css"> 
+
 </head>
 <body>
-	<div class="content">
+	<div class="container content">
 		<header>
 			<div class="bannerTop">
-				<div class="menuSocial"></div>
-				<div class="ubication"></div>
-				<div class="titleMain"></div>
+				<div class="menuSocial">
+					<a href="#" target="_blank"><i class="fab fa-facebook-square"></i></a>
+					<a href="#" target="_blank"><i class="fab fa-twitter-square"></i></a>
+					<a href="#" target="_blank"><i class="fab fa-google-plus-square"></i></a>
+					<a href="#" target="_blank"><i class="fab fa-instagram-square"></i></a>
+				</div>
+				<div class="ubication">
+					<div class="container">
+					  <div class="row">
+					    <div class="col-6">
+					      <div class="calendarIcon">
+							<i class="fas fa-calendar-alt"></i> 10-MAR-2021
+						</div>
+					    </div>
+					    <div class="col-6">
+					      <div class="ubicationIcon">
+							<i class="fas fa-map-marker-alt"></i> AGUASCALIENTES, AGS.
+						  </div>
+					    </div>				
+					  </div>
+					</div>
+					
+					
+				</div>
+				<div class="titleMain">
+					INOX
+				</div>
 			</div>
-			<nav></nav>	
+			
+			<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			  <div class="container-fluid">
+			    <a class="navbar-brand" href="#"></a>
+			    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			      <span class="navbar-toggler-icon"></span>
+			    </button>
+			    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+			        <li class="nav-item">
+			          <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link" href="#">Precios</a>
+			        </li>
+			        <li class="nav-item dropdown">
+			          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+			            Servicios
+			          </a>
+			          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+			            <li><a class="dropdown-item" href="#">Action</a></li>
+			            <li><a class="dropdown-item" href="#">Another action</a></li>
+			            <li><hr class="dropdown-divider"></li>
+			            <li><a class="dropdown-item" href="#">Something else here</a></li>
+			          </ul>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Productos</a>
+			        </li>
+			      </ul>
+			      <form class="d-flex">
+			        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">			     
+			      </form>
+			    </div>
+			  </div>
+			</nav>
+			
 		</header>
 		<div>
-			<div class="service"></div>
-			<div class="products"></div>
-			<div class="productsCount"></div>
-			<div class="pricer"></div>			
+			<div class="section service">
+				<h2>Servicios</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi doloremque, excepturi distinctio sunt voluptatum voluptas, minima assumenda ad harum nulla, iusto hic impedit nisi molestiae soluta perspiciatis reiciendis a eaque?
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo vel similique accusantium facere neque maiores cumque quas quam quisquam, sapiente. Quae hic, voluptas cupiditate, sed porro tempora. Ipsum, vel, expedita.
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque vel debitis esse perferendis temporibus rerum, cupiditate dicta inventore, id quaerat, cumque animi ab. Cumque tenetur itaque corporis maiores ipsum maxime.</p>
+				<aside>
+					<h2>Catalago de Servicios</h2>
+					<ul class="menuService">
+						<li class="itemMenuService">
+							Item 
+						</li>
+						<li class="itemMenuService">
+							Item
+						</li>
+						<li class="itemMenuService">
+							Item
+						</li>
+						<li class="itemMenuService">
+							Item
+						</li>
+						<li class="itemMenuService">
+							Item
+						</li>
+						<li class="itemMenuService">
+							Item
+						</li>
+					</ul>
+				</aside>
+			</div>
+			<div class="section products">
+				<h2>Productos</h2>
+				<div class="container">
+				  <div class="row">
+				    <div class="col-sm-12 col-md-6 col-lg-3"><img src="img/product.jpg" alt=""></div>
+				    <div class="col-sm-12 col-md-6 col-lg-3"><img src="img/product.jpg" alt=""></div>
+				    <div class="col-sm-12 col-md-6 col-lg-3"><img src="img/product.jpg" alt=""></div>
+				    <div class="col-sm-12 col-md-6 col-lg-3"><img src="img/product.jpg" alt=""></div>
+				  </div>
+				  <div class="row">
+				    <div class="col-sm-12 col-md-6 col-lg-3"><img src="img/product.jpg" alt=""></div>
+				    <div class="col-sm-12 col-md-6 col-lg-3"><img src="img/product.jpg" alt=""></div>
+				    <div class="col-sm-12 col-md-6 col-lg-3"><img src="img/product.jpg" alt=""></div>
+				    <div class="col-sm-12 col-md-6 col-lg-3"><img src="img/product.jpg" alt=""></div>
+				  </div>
+				  <div class="row">
+				    <div class="col-sm-12 col-md-6 col-lg-3"><img src="img/product.jpg" alt=""></div>
+				    <div class="col-sm-12 col-md-6 col-lg-3"><img src="img/product.jpg" alt=""></div>
+				    <div class="col-sm-12 col-md-6 col-lg-3"><img src="img/product.jpg" alt=""></div>
+				    <div class="col-sm-12 col-md-6 col-lg-3"><img src="img/product.jpg" alt=""></div>
+				  </div>
+				</div>
+				
+			</div>
+			<div class="productsCount">
+				1,965,566
+			</div>
+			<div class="section pricer">
+				<h2>Precios</h2>
+			</div>			
 		</div>
 		<footer></footer>
 	</div>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 </body>
 </html>
