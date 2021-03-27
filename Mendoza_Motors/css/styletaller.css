@@ -1,0 +1,232 @@
+<style type="styletaller">
+
+
+form{
+  
+  max-width: 850px;
+  margin:0 auto;
+  width: 85%;
+}
+h1{  
+
+     width: 85%;
+   max-width: 850px;
+   margin:0 auto;
+}
+
+h2{  font: oblique bold 150%;
+  font-family: Times New Roman;
+color:black;
+   width: 85%;
+   max-width: 1100px;
+   margin:0 auto;
+   }
+  
+h3{font: oblique bold 130%;
+  font-family: Times New Roman;
+color:black;
+   width: 85%;
+   max-width: 850px;
+   margin:0 auto;
+
+}
+  
+  h4{  font-family: sans-serif;
+  color:black;
+   width: 85%;
+   max-width: 850px;
+   margin:0 auto;
+    
+}
+
+    img{
+background-color:white;
+
+    }
+    /*barra*/
+
+
+
+body {
+
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #666;
+  background: #f2f2f2;
+  font-size: 1em;
+  line-height: 1.5em;
+  padding-top: 80px; /* Relleno superior igual a la altura de la cabecera*/
+
+}
+
+h1 {
+  font-size: 2.3em;
+  line-height: 1.3em;
+     width: 85%;
+   max-width: 850px;
+   margin:0 auto;
+  text-align: center;
+  font-weight: 300;
+
+    font: oblique bold 195% ;
+  font-family: "Consolas", monospace;
+  color: #9F2B2B;
+}
+
+p {
+   width: 85%;
+   max-width: 850px;
+   margin:0 auto;
+  line-height: 120%;
+    margin-bottom: 1.6rem;
+    font-family: Arial, 12;
+    color: black;
+    
+}
+
+
+#main-header {
+  background: #333;
+  color: white;
+  height: 80px;
+  
+  width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+  left: 0; /* Posicionamos la cabecera al lado izquierdo */
+  top: 0; /* Posicionamos la cabecera pegada arriba */
+  position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+} 
+  #main-header a {
+    color: white;
+  }
+
+/*
+ * Logo
+ */
+#logo-header {
+  float: left;
+  padding: 15px 0 0 20px;
+  text-decoration: none;
+}
+  #logo-header:hover {
+    color: #9F2B2B;
+  }
+  
+  #logo-header .site-name {
+    display: block;
+    font-weight: 700;
+    font-size: 1.2em;
+  }
+  
+  #logo-header .site-desc {
+    display: block;
+    font-weight: 300;
+    font-size: 0.8em;
+    color: #999;
+  }
+/*
+ * Navegación
+ */
+nav {
+  float: right;
+}
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-right: 20px;
+  }
+  
+    nav ul li {
+      display: inline-block;
+      line-height: 80px;
+    }
+      
+      nav ul li a {
+        display: block;
+        padding: 0 10px;
+        text-decoration: none;
+      }
+      
+        nav ul li a:hover {
+          background: #9F2B2B;
+        }
+
+#main-footer {
+  background: #333;
+  color: white ;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+  #main-footer p {
+    margin: 0;
+  }
+  
+  #main-footer a {
+    color: white;
+  }
+  .social{
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    background: lightblue;
+    margin: 10px;
+  }
+  .google{
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+   background: white;
+   margin: 10px;
+  }
+  /*barra*/
+.products img{
+
+  width: 100%;
+  box-shadow: 2px 2px black;
+
+
+}
+.products .row {
+  
+  margin: auto;
+  margin-top: 10px;
+  max-width: 850px;
+
+}
+  /*carrusel*/
+ 
+  /**/
+  /*catalogo*/
+  aside{
+  background-color: lightgray;
+  width: 400px;
+  padding: 25px;
+  margin-top: 50px;
+  float: center;
+ max-width: 850px;
+   margin:0 auto;
+   border: gray 2px outset;
+}
+  .menuService{
+  list-style: none;
+}
+li{
+ font-family: Times New Roman;
+color:black;
+}
+.itemMenuService{
+  text-decoration: none;
+
+}
+.service{
+
+  background-repeat:no-repeat;
+  background-position: 80% 80%;
+  background-size: 50%;
+}
+/**/
+.card {
+ margin:0 auto;
+ width: 40rem;
+}
+
+
+</style>}
